@@ -4,6 +4,16 @@ Managed Kubernetes Services
 Azure
 -----
 
+
+* Create cluster
+```
+
+```
+* Delete cluster
+```
+az aks delete -n aksMyCluster -g aksMyCluster-RG --no-wait -y
+```
+
 AWS
 ---
 
