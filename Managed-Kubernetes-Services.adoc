@@ -7,7 +7,7 @@ Azure
 
 * Create cluster
 ```
-
+az aks create --resource-group myAKSCluster --name myAKSCluster --node-count 1 --enable-addons monitoring --generate-ssh-keys
 ```
 * Delete cluster
 ```
