@@ -13,6 +13,9 @@ az aks create --resource-group myAKSCluster --name myAKSCluster --node-count 1 -
 ```
 az aks delete -n aksMyCluster -g aksMyCluster-RG --no-wait -y
 ```
+* Delete Azure AD Service Principal
+```
+```
 
 AWS
 ---
