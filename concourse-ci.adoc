@@ -1,0 +1,16 @@
+# Run Concourse on Docker containers on the local host
+
+
+# Up
+```
+
+curl -sSL https://github.com/ampacheco/quick-guides/blob/master/Managed-Kubernetes-Services.adoc | docker-compose -f - up -d 
+
+```
+
+# Down
+```
+
+curl -sSL https://github.com/ampacheco/quick-guides/blob/master/Managed-Kubernetes-Services.adoc | docker-compose -f - down 
+
+```
