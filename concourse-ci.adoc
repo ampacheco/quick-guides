@@ -4,13 +4,19 @@
 # Up
 ```
 
-curl -sSL https://raw.githubusercontent.com/concourse/concourse-docker/master/docker-compose-quickstart.yml| docker-compose -f - up -d 
+curl -sSL https://raw.githubusercontent.com/concourse/concourse-docker/master/docker-compose-quickstart.yml | docker-compose -f - up -d 
 
 ```
 
 # Down
 ```
 
-curl -sSL https://raw.githubusercontent.com/concourse/concourse-docker/master/docker-compose-quickstart.yml| docker-compose -f - down 
+curl -sSL https://raw.githubusercontent.com/concourse/concourse-docker/master/docker-compose-quickstart.yml | docker-compose -f - down 
 
+```
+
+# Install fly with brew 
+
+```
+curl -Lo fly https://github.com/concourse/concourse/releases/download/v2.5.0/fly_darwin_amd64 && chmod +x fly && mv fly /usr/local/bin/
 ```
