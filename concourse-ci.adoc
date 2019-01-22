@@ -23,5 +23,5 @@ curl -Lo fly https://github.com/concourse/concourse/releases/download/v2.5.0/fly
 
 # Follow this tutorials
 
-1. Stark & Waine:https://concoursetutorial.com/
-2. seroter tutorial (.NET Core):ttps://seroter.wordpress.com/2018/06/06/creating-a-continuous-integration-pipeline-in-concourse-for-a-test-infused-asp-net-core-app/ 
+1. https://concoursetutorial.com/[Stark & Waine]
+2. seroter tutorial (.NET Core):ttps://seroter.wordpress.com/2018/06/06/creating-a-continuous-integration-pipeline-in-concourse-for-a-test-infused-asp-net-core-app/ [Seroter's blog]
