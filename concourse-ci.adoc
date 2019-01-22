@@ -20,3 +20,8 @@ curl -sSL https://raw.githubusercontent.com/concourse/concourse-docker/master/do
 ```
 curl -Lo fly https://github.com/concourse/concourse/releases/download/v2.5.0/fly_darwin_amd64 && chmod +x fly && mv fly /usr/local/bin/
 ```
+
+# Follow this tutorials
+
+1. [Stark & Waine](https://concoursetutorial.com/)
+2. [seroter tutorial (.NET Core)] (https://seroter.wordpress.com/2018/06/06/creating-a-continuous-integration-pipeline-in-concourse-for-a-test-infused-asp-net-core-app/) 
