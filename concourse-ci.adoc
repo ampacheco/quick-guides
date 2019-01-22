@@ -4,13 +4,13 @@
 # Up
 ```
 
-curl -sSL https://github.com/ampacheco/quick-guides/blob/master/Managed-Kubernetes-Services.adoc | docker-compose -f - up -d 
+curl -sSL https://raw.githubusercontent.com/concourse/concourse-docker/master/docker-compose-quickstart.yml| docker-compose -f - up -d 
 
 ```
 
 # Down
 ```
 
-curl -sSL https://github.com/ampacheco/quick-guides/blob/master/Managed-Kubernetes-Services.adoc | docker-compose -f - down 
+curl -sSL https://raw.githubusercontent.com/concourse/concourse-docker/master/docker-compose-quickstart.yml| docker-compose -f - down 
 
 ```
