@@ -1,9 +1,10 @@
 Identify versions available.
 ----------------------------
 
-GCLOUD
+Gcloud
 ------
 ```
+$ gloud container get-server-config --zone us-east1-b
 ```
 
 AZURE
