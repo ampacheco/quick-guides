@@ -2,6 +2,7 @@
 ## Linux
 ## MAC
 ## Windows
+
 # Update Brew
 ## Linux
 ## MAC
