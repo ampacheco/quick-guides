@@ -1,9 +1,11 @@
 # Install Brew
+
 ## Linux
 ## MAC
 ## Windows
 
 # Update Brew
+
 ## Linux
 ## MAC
 ## Windows
