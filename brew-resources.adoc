@@ -7,6 +7,9 @@
 ## MAC
 ## Windows
 
+
+
+# Minikube
 ```
 brew update
 brew cask install minikube --verbose
