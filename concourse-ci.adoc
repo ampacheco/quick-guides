@@ -4,14 +4,14 @@
 # Up
 ```
 
-curl -sSL https://raw.githubusercontent.com/concourse/concourse-docker/master/docker-compose-quickstart.yml | docker-compose -f - up -d 
+curl -sSL https://concourse-ci.org/docker-compose.yml | docker-compose -f - up -d 
 
 ```
 
 # Down
 ```
 
-curl -sSL https://raw.githubusercontent.com/concourse/concourse-docker/master/docker-compose-quickstart.yml | docker-compose -f - down 
+curl -sSL https://concourse-ci.org/docker-compose.yml | docker-compose -f - down 
 
 ```
 
