@@ -1,2 +1,1 @@
-[Stéphane Nicoll's demos repository]
-(https://github.com/snicoll-demos)
+[Stéphane Nicoll's demos repository](https://github.com/snicoll-demos)
