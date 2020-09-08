@@ -14,4 +14,4 @@
 :keyboard: [plagiarism Demo](https://github.com/aws-samples/aws-step-functions-plagiarism-demo-dotnetcore)
 
 ## People
-:man: [.NET Developer] (https://github.com/normj) 
+:man: [.NET Developer](https://github.com/normj) 
