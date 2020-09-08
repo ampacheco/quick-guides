@@ -7,4 +7,9 @@
 :movie_camera: [AWS Workshop](https://cicd.serverlessworkshops.io/java/sam.html)
 
 ## Github Examples
-:keyboard: []()
+:keyboard: [Ref Architecture](https://github.com/aws-samples/lambda-refarch-webapp)
+:keyboard: [Lambda .NET Resources](https://github.com/aws/aws-lambda-dotnet)
+:keyboard: [plagiarism Demo](https://github.com/aws-samples/aws-step-functions-plagiarism-demo-dotnetcore)
+
+## People
+:man: [.NET Developer] (https://github.com/normj) 
