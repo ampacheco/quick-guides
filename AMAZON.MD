@@ -35,3 +35,6 @@ aws sts get-caller-identity --query Arn | grep eksworkshop-admin -q && echo "IAM
 ```
 npm install -g @aws-amplify/cli@4.13.2
 ```
+- Getting Starting with Amplify Developement
+
+  [Amplify React](https://amplify-workshop.go-aws.com/30_adding_auth/10_adding_auth_back.html)
