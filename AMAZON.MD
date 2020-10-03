@@ -29,3 +29,9 @@ aws configure get default.region
 ```
 aws sts get-caller-identity --query Arn | grep eksworkshop-admin -q && echo "IAM role valid" || echo "IAM role NOT valid"
 ```
+
+- Setting Ammplify Environment
+
+```
+npm install -g @aws-amplify/cli@4.13.2
+```
