@@ -38,3 +38,17 @@ npm install -g @aws-amplify/cli@4.13.2
 - Getting Starting with Amplify Developement
 
   [Amplify React](https://amplify-workshop.go-aws.com/30_adding_auth/10_adding_auth_back.html)
+  
+  
+- Configure C9 Builder && Runner
+```
+{
+  "cmd" : ["dotnet", "build"],
+  "info" : "Building..."
+}
+{
+  "cmd" : ["dotnet", "run", "$args"],
+  "working_dir": "$file",
+  "info" : "Running..."
+}
+```
