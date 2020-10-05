@@ -39,7 +39,17 @@ npm install -g @aws-amplify/cli@4.13.2
 
   [Amplify React](https://amplify-workshop.go-aws.com/30_adding_auth/10_adding_auth_back.html)
   
-  
+ 
+- Install .net framework
+
+```
+wget https://dot.net/v1/dotnet-install.sh
+sudo chmod u=rx dotnet-install.sh
+./dotnet-install.sh -c Current
+
+```
+ 
+ 
 - Configure C9 Builder && Runner
 ```
 {
