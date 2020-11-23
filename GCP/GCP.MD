@@ -25,3 +25,6 @@ kubectl auth can-i '*' '*' --all-namespaces
 ```
 yes
 
+# GCP Labs
+
+- [ASP .NET Core App](https://www.qwiklabs.com/focuses/4360?catalog_rank=%7B%22rank%22%3A6%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=7952854#step1)
