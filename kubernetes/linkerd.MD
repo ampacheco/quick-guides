@@ -1,6 +1,7 @@
 # Linkerd Creation
 
 ```sh
+az group create -n mesh-cluster-rg -l eastus
 az aks create --resource-group mesh-cluster-rg --name mesh-cluster --node-count 2
 az aks list
 az aks get-credentials --resource-group mesh-cluster-rg --name mesh-cluster
