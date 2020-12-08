@@ -28,5 +28,5 @@ source <(kubectl completion bash) # setup autocomplete in bash into the current 
 echo "source <(kubectl completion bash)" >> ~/.bashrc # add autocomplete permanently to your bash shell.
 
 alias k=kubectl
-complete -F __start_kubectl k
+complete -F __start_kubectl k && clear
 ````
