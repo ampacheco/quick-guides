@@ -19,5 +19,5 @@ func stayOnStack() user {
 
 func main() {
 	u := stayOnStack()
-	fmt.Printf("User: %+v", stayOnStack())
+	fmt.Printf("User: %+v", u)
 }
