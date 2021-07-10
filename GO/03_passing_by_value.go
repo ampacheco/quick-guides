@@ -1,5 +1,9 @@
 package main
 
+
+//
+// chapter 14 titled, Stacks and Pointer Mechanics, for more.
+
 import (
 	"fmt"
 )
