@@ -11,7 +11,7 @@
 
 
 
-# Data Types
+## Data Types
 
 The data that comes into Azure Monitor can be divided into two types:
 
@@ -22,3 +22,11 @@ The data that comes into Azure Monitor can be divided into two types:
 In this module, we will be focusing primarily on log data.
 
 ![image](https://user-images.githubusercontent.com/877636/130851870-15f78af9-b1c3-4ceb-b669-fafd8670171f.png)
+
+## What we can do with Data
+
+Once the data is in Azure Monitor, there is a suite of tools that will let us analyze, visualize, respond to specific contents, and integrate that data with other tools.
+
+![image](https://user-images.githubusercontent.com/877636/130852060-4b8eeab6-ad5b-4107-9a26-87d9e32c55b8.png)
+
+
