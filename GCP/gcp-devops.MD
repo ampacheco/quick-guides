@@ -40,6 +40,6 @@ gcloud container clusters create bootcamp --num-nodes 5 --scopes "https://www.go
 - [ ] https://google.qwiklabs.com/games/1879/labs/10085
 - [ ] https://cloud.google.com/certification/
 - [ ] https://google.qwiklabs.com/games/1879/labs/10086
-
-
+- [ ] [NAT Gateway in Kubernetes](https://google.qwiklabs.com/games/1879/labs/10086)
+- [ ] [Vault for secret Management](https://google.qwiklabs.com/focuses/1210?parent=catalog)
 
