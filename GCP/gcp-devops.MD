@@ -38,4 +38,7 @@ gcloud container clusters create bootcamp --num-nodes 5 --scopes "https://www.go
 ### Referencias: 
 
 - [ ] https://google.qwiklabs.com/games/1879/labs/10085
+- [ ] https://cloud.google.com/certification/
+
+
 
