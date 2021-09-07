@@ -2,6 +2,7 @@
 
 - [ ] https://learn.hashicorp.com/tutorials/consul/associate-review?in=consul/certification
 - [ ] https://github.com/zealvora/hashicorp-certified-consul
+- [ ] https://docs.google.com/document/d/1ihvMYHhihZ67KJoxgIG9thLd83HQM9U7ExHdhpsPMO4/edit?usp=sharing
 
 
 ## Install Consul CentOS
