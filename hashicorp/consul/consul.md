@@ -14,6 +14,11 @@
 - [ ] [Consul Enterprise](https://docs.google.com/document/d/1eHN3ls7hVAyjUO-1ggUWMRe833IpDFXF8hGvxuwX0GI/edit)
 
 
+## Preparation
+
+📖 [Link to Notes](https://docs.google.com/document/d/1m98VuzrK-C5kTZWTbYhNrCDbWl4pSWROYCMxjd9yJV8/edit?usp=sharing)
+
+
 ## Install Consul CentOS
 
 ```
