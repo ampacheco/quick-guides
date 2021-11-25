@@ -2,6 +2,6 @@
 
 
 
-[X] [JAVA REST](https://github.com/aws-samples/aws-sam-java-rest)
+- [ ] [Java Rest](https://github.com/aws-samples/aws-sam-java-rest)
 
-[X] [Serverless Repositoty](https://serverlessrepo.aws.amazon.com/applications)
+- [ ] [Serverless Repositoty](https://serverlessrepo.aws.amazon.com/applications)
