@@ -1,4 +1,6 @@
-# API-Resources
+# Endpoints Calls with mainstream languages
+
+A summary of secure endpoits calls with mainstream languages.
 
 ## CURL
 ```bash
