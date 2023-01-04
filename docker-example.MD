@@ -1,6 +1,6 @@
 
 
-File Name: `docker-composer.yaml`
+File Name: `docker-compose.yaml`
 
 ````
 version: '3'
