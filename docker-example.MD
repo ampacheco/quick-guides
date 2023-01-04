@@ -1,0 +1,59 @@
+
+
+File Name: `docker-composer.yaml`
+
+````
+version: '3'
+services:
+  # paste agent block here
+  discounts:
+    environment:
+      - FLASK_APP=discounts.py
+      - FLASK_DEBUG=1
+      - POSTGRES_PASSWORD
+      - POSTGRES_USER
+      - POSTGRES_HOST=db
+    image: 'public.ecr.aws/x2b9z2t7/ddtraining/discounts-fixed:2.2.0'
+    ports:
+      - '5001:5001'
+    depends_on:
+      - db
+    # paste discounts labels here
+  frontend:
+    image: 'public.ecr.aws/x2b9z2t7/ddtraining/storefront-fixed:2.2.0'
+    ports:
+      - '3000:3000'
+    depends_on:
+      - discounts
+      - advertisements
+  advertisements:
+    environment:
+      - FLASK_APP=ads.py
+      - FLASK_DEBUG=1
+      - POSTGRES_PASSWORD
+      - POSTGRES_USER
+      - POSTGRES_HOST=db
+    image: 'public.ecr.aws/x2b9z2t7/ddtraining/advertisements-fixed:2.2.0'
+    ports:
+      - '5002:5002'
+    depends_on:
+      - db
+  db:
+    image: postgres:11-alpine
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD
+      - POSTGRES_USER
+  puppeteer:
+    image: buildkite/puppeteer:10.0.0
+    volumes:
+      - /root/puppeteer-mobile.js:/puppeteer.js
+      - /root/puppeteer.sh:/puppeteer.sh
+    environment:
+      - STOREDOG_URL
+      - PUPPETEER_TIMEOUT
+    depends_on:
+      - frontend
+    command: bash puppeteer.sh
+
+````
